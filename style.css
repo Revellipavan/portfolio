@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+body{
+    background-color: darkgrey;
+    margin: 0%;
+    
+}
+.navbar{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.nav-left{
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+.nav-left:hover{
+background-color: transparent;
+border-radius: 50px;
+
+}
+
+
+.nav-left::before{
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 50%;
+}
+.nav-right{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.contents{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+    font-weight: bold;
+}
+.contents:hover{
+
+    background-color: rgb(224, 228, 206);
+    border-radius: 50px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+    height: 95vh;
+    
+   
+}
+.home-left{
+    color: black;
+    width: 50vw;
+padding-left: 200px;
+text-align: right;
+}
+.home-right{
+  width: 50vw;
+  padding-left: 50px;
+
+}
+.profile-img{
+   border: 10px;
+   border-color: black;
+}
+
+.resume{
+  
+    color: black;
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   justify-content: space-between;
+   padding-left: 50px;
+   background-color: darkgray;
+  
+}
+.resume-h1{
+  
+    padding-left: 500px;
+}
+.container{
+    width:100% ;
+    background-color: white ;
+}
+.sub2-a{
+    display: flex;
+    flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.Oops{
+    width: 90%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.Cprogramming{
+    width: 80%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.Java{
+    width: 70%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.Html{
+    width: 90%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.Css{
+    width: 80%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.JavaScript{
+    width: 70%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.WebDevelopment{
+    width: 70%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.FrontEndDevelopment{
+    width: 70%;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+}
+.sub3-a{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.download{
+    padding-left: 500px;
+    padding-bottom: 50px;
+}
+
+.download-btn{
+    color: black;
+    font-weight: bold;
+}
+   
+.btn{
+    border-radius: 10PX;
+    background-color: rgb(110, 110, 238);
+    border: none;
+    padding: 12px 30px;
+cursor: pointer;
+
+
+}
+.btn:hover{
+    background-color: royalblue;
+    
+}
+.projects{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  
+}
+.p1-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+    text-align: justify;
+}
+.projects-h1{
+    padding-left: 550px;
+}
+.project-1{
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+    
+}
+.p1-p{
+   text-align: justify;
+   text-indent: 50px;
+   line-height: 30px;
+}
+.p2{
+    padding: 20px;
+    padding-left: 30px;
+   padding-right: 10px;
+
+}
+.p2-p{
+    text-align: justify;
+   text-indent: 50px;
+  
+   line-height: 33px;
+   padding-bottom: 15px;
+}
+.contact{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    align-items: center;
+    padding: 50px;
+}
+.contact-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-h1{
+    padding-left: 100px;
+}
+.phn{
+    padding: 30px;
+}
+.mail{
+    padding: 30px;
+}
+.naukari{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image{
+    height: 50px;
+    padding: 5px;
+}
